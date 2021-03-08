@@ -107,3 +107,126 @@
     background-image: url(../Images/foodtop/dinner2.jpg);
     background-size: cover;
   }
+
+  /* Another section */
+
+
+.food-show {
+    margin: auto;
+    width: 80%;
+    padding: 10% 10% 0 10%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .food-show-images {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    border: white solid 1px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px 5px lightgray;
+    margin: 0 70px 0 0;
+  }
+  .food-show-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .food-show-heading {
+    margin: 15px 0 15px 0;
+  }
+  #food-show-image-one {
+    padding: 20px 20px 0 20px;
+  }
+  #food-show-image-two {
+    padding: 0 20px 20px 20px;
+  }
+  #heading {
+    font-size: 50px;
+    color: rgb(59, 57, 57);
+  }
+  #message {
+    font-size: 30px;
+    color: rgb(59, 57, 57);
+  }
+  #description {
+    font-size: 25px;
+    color: rgb(59, 57, 57);
+    display: inline-block;
+  }
+  .viewgallery {
+    color: #f15a29;
+    border: #f15a29 1px solid;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+  }
+  
+  .viewgallery:hover {
+    background-color: #f15a29;
+    color: white;
+  }
+
+
+  /* Another section */
+
+
+.drinks-show {
+    width: 80;
+    margin: auto;
+    padding: 10% 10% 0 10%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .drinks-show-images {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    border: white solid 1px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px 5px lightgray;
+    margin: 0 0 0 70px;
+  }
+  .drinks-show-text {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+  .drinks-show-heading {
+    margin: 15px 0 15px 0;
+  }
+  #drinks-show-image-one {
+    padding: 20px 0 20px 20px;
+  }
+  #drinks-show-image-two {
+    padding: 20px 20px 20px 0;
+  }
+  
+  #messaging {
+    font-size: 30px;
+    color: rgb(59, 57, 57);
+  }
+  #drinks-description {
+    font-size: 25px;
+    color: rgb(59, 57, 57);
+    display: block;
+  }
+  .viewdrinks {
+    height: 50px;
+    width: 50%;
+    margin-left: auto;
+    color: #f15a29;
+    border: #f15a29 1px solid;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+  }
+  .viewdrinks:hover {
+    background-color: #f15a29;
+    color: white;
+  }
+  
